@@ -1,0 +1,141 @@
+*{
+    font-family: roboto, sans-serif;
+}
+body{
+    margin: 0;
+}
+
+header{
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+    gap: 32px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.section-1{
+    margin: 0;
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+    color: #c3ccdd;
+    padding: 80px;
+}
+
+.section-1 button{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: 600;
+    font-size: 1em;
+    border-radius: 8px;
+    padding: 8px 20px;
+}
+
+.hero-main-text, .header-logo{
+    color: #F9FAF8;
+}
+
+.hero-main-text{
+    margin: 0;
+    font-size: 48px;
+    font-weight: bolder;
+    width: 500px;
+}
+
+.image{
+    background-color: #6c737c;
+    width: 500px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-2{
+    background-color: #fdfdfd;
+    font-size: 18px;
+    color: #606975;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    height: 400px;
+}
+
+.section-2 .box{
+    border: solid #3882F6 3px;
+    width: 160px;
+    height: 160px;
+    border-radius: 15px;
+}
+
+.info-header{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    flex-shrink: 1;
+}
+
+.section-2 .boxes{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-2 .boxes p{
+    margin: 0;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.boxes>div{
+    width: min-content;
+}
+
+.section-3 {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    padding: 0;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.section-3>div{
+    max-width: 814px;
+}
+
+.section-3 .quote,.cite{
+    margin: 0;
+}
+
+.section-3 .cite{
+ text-align: right;
+ font-weight: bold;
+ font-size: 18px;
+}
