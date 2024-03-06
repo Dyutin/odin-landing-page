@@ -1,5 +1,6 @@
 *{
     font-family: roboto, sans-serif;
+    box-sizing: border-box;
 }
 body{
     margin: 0;
@@ -39,6 +40,7 @@ ul{
     }
     .section-1{
         flex-direction: column;
+        text-align: center;
     }
   }
 
@@ -56,13 +58,13 @@ a{
     align-items: center;
     font-size: 18px;
     color: #c3ccdd;
-    padding: 80px 0px;
+    padding: 80px 0px 180px 0px;
 
     
 }
 
 .section-1 .left{
-    flex-basis: 470px;
+    flex-basis: 380px;
 }
 .section-1 button{
     background-color: #3882F6;
@@ -96,7 +98,7 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 50px;
+    
     min-width: 230px;
 }
 
@@ -109,13 +111,15 @@ a{
     align-items: center;
     flex-direction: column;
     margin: 0;
-    height: 400px;
+    min-height: 400px;
+    padding-bottom: 180px;
+    padding-top: 87px;
 }
 
 .section-2 .box{
     border: solid #3882F6 3px;
-    width: 160px;
-    height: 160px;
+    width: 220px;
+    height: 220px;
     border-radius: 15px;
 }
 
@@ -124,11 +128,12 @@ a{
     font-weight: bolder;
     color: #1F2937;
     flex-shrink: 1;
+    margin-bottom: 50px;
 }
 
 .section-2 .boxes{
     display: flex;
-    gap: 50px;
+    gap: 70px;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -149,17 +154,18 @@ a{
     font-size: 36px;
     font-style: italic;
     font-weight: 300;
-    padding: 0;
+    padding: 180px;
     color: #1F2937;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 400px;
+    
 }
 
 .section-3>div{
-    max-width: 814px;
+    max-width: 1000px;
+    flex-shrink: 1;
 }
 
 .section-3 .quote,.cite{
@@ -178,6 +184,8 @@ a{
     align-items: center;
     margin: 0;
     font-size: 18px;
+    background-color: #fdfdfd;
+    padding: 0 280px;
 }
 
 .section-4 .card{
@@ -186,12 +194,17 @@ a{
     justify-content: space-around;
     align-items: center;
     margin: 100px 0px;
-    padding: 0;
-    flex-basis: 1000px;
+    padding: 5px;
+    flex-grow: 1;
     border-radius: 8px;
-    height: 150px;
+    min-height: 150px;
     color: #e5e7eb;
     font-size: 18px;
+    flex-wrap: wrap;
+}
+
+.section-4 h3{
+    margin: 5px 0px;
 }
 
 .section-4 button{
@@ -200,16 +213,12 @@ a{
     border-radius: 8px;
     padding: 5px 30px;
     color: #F9FAF8;
-    margin: 0;
+    margin: 20px 20px 5px 20px;
     font-weight: bold;
     font-size: 18px;
     flex-shrink: 0;
 }
 
-.section-4 h3{
-    margin: 0;
-    margin-bottom: 5px;
-}
 
 footer{
     background-color: #1F2937;
