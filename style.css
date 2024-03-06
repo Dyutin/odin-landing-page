@@ -9,18 +9,28 @@ header{
     background-color: #1F2937;
     color: white;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    padding: 0;
+    padding: 20px 0px;
     margin: 0;
+    row-gap: 30px;
 }
 ul{
     margin: 0;
     padding: 0;
     display: flex;
     list-style-type: none;
-    gap: 32px;
+    gap: 20px 32px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
+
+@media only screen and (max-width: 400px) {
+    ul, header{
+        flex-direction: column;
+    }
+  }
 
 a{
     text-decoration: none;
@@ -48,9 +58,11 @@ a{
     padding: 8px 20px;
 }
 
-.hero-main-text, .header-logo{
+.header-logo{
     color: #F9FAF8;
     flex-shrink: 0;
+    margin: 0px;
+    
 }
 
 .hero-main-text{
@@ -58,6 +70,9 @@ a{
     font-size: 48px;
     font-weight: bolder;
     width: 500px;
+    color: #F9FAF8;
+    flex-shrink: 0;
+    
 }
 
 .image{
